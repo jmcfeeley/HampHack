@@ -8,9 +8,9 @@
         android:textAlignment="center"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Book Name:"
+        android:text="Book Title:"
         android:textColor="#000000"
-        android:textSize="40dp"
+        android:textSize="20dp"
         android:background="#80ffffff"
         android:layout_marginTop="20dp"
         android:id="@+id/bname"
@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:minWidth="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/bname"
+        android:layout_alignLeft= "@+id/bname"
         android:id="@+id/bookName"/>
     <Button
         android:layout_width="wrap_content"
